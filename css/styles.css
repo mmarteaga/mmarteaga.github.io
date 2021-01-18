@@ -130,7 +130,7 @@ h3.article-title a:hover {
 
 a:hover,
 a:focus {
-  color: #2962ff;
+  color: #1da1f2;
 }
 
 img,
@@ -180,8 +180,8 @@ figcaption h4 {
 pre,
 code {
   font-family: 'Roboto Mono', monospace;
-  color: #c7254e;
-  background-color: #f9f2f4;
+  color: #ffa500;
+  background-color: #f9f2b2;
 }
 
 pre {
@@ -2314,7 +2314,7 @@ body.dark,
 
 .dark .form-control:focus {
   background-color: rgb(68, 71, 90);
-  border-color: #2962ff;
+  border-color: ##1da1f2;
   box-shadow: 0 0 0 .2rem #0039cb;
 }
 

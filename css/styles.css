@@ -465,13 +465,13 @@ a[data-fancybox] img {
 }
 
 .post-nav-item a {
-  color: #2b2b2b;
+  color: #0b76b8;
   line-height: 1.7;
   text-transform: none;
 }
 
 .post-nav-item .meta-nav {
-  color: #767676;
+  color: #0b76b8;
   font-weight: 900;
   line-height: 2;
   text-transform: uppercase;
@@ -571,7 +571,7 @@ a[data-fancybox] img {
 .section-heading p {
   font-weight: 400;
   font-size: 1.1rem;
-  color: #b2b2b2;
+  color: #0b76b8;
 }
 
 /*************************************************

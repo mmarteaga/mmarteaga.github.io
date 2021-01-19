@@ -30,7 +30,7 @@ html {
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -180,8 +180,8 @@ figcaption h4 {
 pre,
 code {
   font-family: 'Roboto Mono', monospace;
-  color: #ffa500;
-  background-color: #fff8f2;
+  color: #a3053c;
+  background-color: #e084a4;
 }
 
 pre {
@@ -988,7 +988,7 @@ article {
 }
 
 .article-title a {
-  color: #151515;
+  color: #0b76b8;
   transition: color 0.6s ease;
 }
 

@@ -881,7 +881,7 @@ article {
 
 .article-container {
   max-width: 760px;
-  max-height: 250px;
+  max-height: 125px;
   padding: 0 20px 0 20px;
   margin: 0 auto 0 auto;
 }
@@ -939,7 +939,7 @@ article {
   background-origin: border-box;
   background-size: cover;
   height: 60vh;
-  min-height: 500px;
+  min-height: 250px;
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
@@ -948,7 +948,7 @@ article {
 
 @media screen and (max-width: 1199px) {
   .featured-image {
-    min-height: 400px;
+    min-height: 250px;
     height: auto;
   }
 }

@@ -956,7 +956,7 @@ article {
 @media screen and (max-width: 767px) {
   .featured-image {
     height: 40vh;
-    min-height: 300px;
+    min-height: 125px;
   }
 }
 

@@ -1730,7 +1730,7 @@ a.badge:hover {
 }
 
 .navbar-light {
-  background: #fff !important;
+  background: #000000 !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -1739,7 +1739,7 @@ a.badge:hover {
 }
 
 .navbar-toggler {
-  color: #34495e !important;
+  color: #0b76b8 !important;
 }
 
 .navbar-light .navbar-toggler:focus,
@@ -1758,12 +1758,12 @@ nav#navbar-main li.nav-item {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #34495e;
+  color: #fff;
   font-weight: 600;
 }
 
 .navbar-light .navbar-nav>.nav-item>.nav-link:focus {
-  color: #34495e;
+  color: #fff;
   background-color: transparent;
 }
 
@@ -1793,11 +1793,11 @@ nav#navbar-main li.nav-item {
 }
 
 .navbar-light .navbar-toggler .icon-bar {
-  background-color: #34495e !important;
+  background-color: #fff !important;
 }
 
 .dropdown-menu {
-  background-color: #fff !important;
+  background-color: #000000 !important;
 }
 
 .dropdown-menu > li > a {
@@ -1806,7 +1806,7 @@ nav#navbar-main li.nav-item {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #34495e;
+  color: #000000;
   white-space: nowrap;
 }
 
@@ -2304,7 +2304,7 @@ body.dark,
 .dark input,
 .dark .form-control,
 .dark .form-control:focus {
-  color: rgb(248, 248, 242);
+  color: #f2f7f8;
   background: rgb(40, 42, 54);
 }
 

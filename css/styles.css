@@ -25,7 +25,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #0b76b8;
+  color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1rem;
   margin-bottom: .5rem;
   line-height: 1.25;
-  color: #313131;
+  color: #0b76b8;
   text-rendering: optimizeLegibility;
 
   /* Ensure long words do not overflow into content. */

@@ -399,19 +399,21 @@ if (!doNotTrack) {
 
       <p> The installation of the package is quite simple:</p>
       
-      <pre><code class="language-r">
-      #install.packages("sysfonts")
-      #install.packages("showtext")
-      #install.packages("devtools") # These are some of the required packages I used (R on MacOS)
+<pre><code class="language-r">
+#install.packages("sysfonts")
+#install.packages("showtext")
+#install.packages("devtools") # These are some of the required packages I used (R on MacOS)
       
-      devtools::install_github("ndphillips/VisualResume")
-      </code></pre>
+devtools::install_github("ndphillips/VisualResume")
+</code></pre>
       
       <p> The package contains the <code> VisualResume.R</code> function which I show below. A big shout-out to the author!</p>
 
 <pre><code class="language-r">
+# load package to use
 library(VisualResume)
 
+# the function itself is quite straight-forward and produces an image similar to the one I show
 VisualResume::VisualResume(
   titles.left = c("Mardoqueo (Marc) Arteaga", "Economist & PhD Student", "*Built in R using the InfoResume package: www.ndphillips.github.io/inforesume"),
   titles.right = c("www.mmarteaga.github.io", "marteagalainez@fordham.edu", "Please see my website for the full CV"),
@@ -439,7 +441,6 @@ VisualResume::VisualResume(
 </code></pre>
 
 <hr />
-
 <p><img src="/cv/MArteaga_VR.png" ></p>
 
 

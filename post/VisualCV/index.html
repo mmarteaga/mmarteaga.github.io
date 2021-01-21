@@ -400,50 +400,45 @@ if (!doNotTrack) {
       <p> The installation of the package is quite simple:</p>
       
       <pre><code class="language-r">
-      #install.packages("devtools") # This is a required package, which itself has a lot of dependencies
+      # The following are a few of the required packages and dependencies I had to use (R on MacOs)
+      install.packages("sysfonts")
+      install.packages("showtext")
+      #install.packages("devtools") 
       devtools::install_github("ndphillips/VisualResume")
       </code></pre>
       
-      <p> The package contains the <code> VisualResume.R</code> function which, for my example, takes on the following form: </p>
+      <p> The package contains the <code> VisualResume.R</code> function used to create the image. There are a few nuances
+	    with the function, such as including the figuring out the approximate locations using integer years (e.g. 2018.50 for ~June 2018).
+	    This is a fun package that can make your experiences quick and easy to see! A big shoutout to the author, and go check out more of his stuff.</p>
 
 <pre><code class="language-r">
 library(VisualResume)
 
 VisualResume::VisualResume(
-  titles.left = c(&quot;&quot;,&quot;Andrea Rau, PhD&quot;,  &quot;&quot;),
-  titles.right = c(&quot;&quot;, &quot;&quot;, &quot;&quot;),
-  titles.left.cex = c(1,  4, 1),
-  timeline.labels = c(&quot;Education&quot;, &quot;Work experience&quot;),
-  timeline = data.frame(title = c(&quot;St. Olaf College&quot;, &quot;Purdue University&quot;, 
-                                  &quot;Purdue University&quot;, &quot;Inria&quot;, &quot;INRA&quot;, &quot;UWM&quot;, &quot;UWM&quot;,
-                                  &quot;Mayo Clinic&quot;, &quot;Walgreens&quot;),
-                        sub = c(&quot;BA, Mathematics &amp; French&quot;, &quot;MS, Applied Statistics&quot;, 
-                                &quot;PhD, Statistics&quot;, &quot;Post-doc&quot;, 
-                                &quot;Research Scientist&quot;, &quot;Visiting Scholar&quot;, 
-                                &quot;AgreenSkills+ Fellow&quot;, &quot;Intern&quot;, &quot;Intern&quot;),
-                        start = c(2001.75, 2005.75, 2007.75, 2010.75, 2011.75, 
-                                  2016.58, 2018783, 2005, 2006.4),
-                        end = c(2005.42, 2007.74, 2010.67, 2011.75, 2020, 2016.75, 
-                                2019.5, 2005.15, 2006.7),
-                        side = c(1, 1, 1, 0, 0, 0, 0, 0, 0)),
-  milestones = data.frame(title = c(&quot;BA&quot;, &quot;MS&quot;, &quot;PhD&quot;),
-                          sub = c(&quot;Math/\nFrench&quot;, &quot;Applied\nStatistics&quot;, 
-                                  &quot;Statistics&quot;),
-                          year = c(0, 0, 0)),
-  events = data.frame(year = c(2009.9, 2015.5, 2017.75, 2018.5),
-                      title = c(&quot;First R package on CRAN (ebdbNet)&quot;,
-                                &quot;BioBayes book on Bayesian statistics published&quot;,
-                                &quot;HDR in Applied Mathematics (University d&#39;Evry-Val-d&#39;Essonne)&quot;,
-                                &quot;First Shiny web application published (EDGE in TCGA)&quot;)),
-  interests = list(&quot;R&quot; = c(rep(&quot;coseq&quot;, 4), &quot;HTSCluster&quot;,
-                           rep(&quot;HTSFilter&quot;, 3), rep(&quot;EDGE in TCGA&quot;, 2)), 
-                   &quot;statistics&quot; = c(rep(&quot;mixture models&quot;, 6), 
-                                    rep(&quot;clustering&quot;, 3), rep(&quot;networks&quot;, 5), 
-                                    rep(&quot;Bayesian&quot;, 3)),
-                   &quot;genomics&quot; = c(rep(&quot;multi-omics&quot;, 8), rep(&quot;ATAC-seq&quot;, 2), 
-                                  rep(&quot;co-expression&quot;, 6), rep(&quot;networks&quot;, 3))),
+  titles.left = c("Mardoqueo (Marc) Arteaga", "Economist & PhD Student", "*Built in R using the InfoResume package: www.ndphillips.github.io/inforesume"),
+  titles.right = c("www.mmarteaga.github.io", "marteagalainez@fordham.edu", "Please see my website for the full CV"),
+  titles.left.cex = c(4, 2, 1),
+  titles.right.cex = c(2, 2, 1),
+  timeline.labels = c("Education", "Work Experience"),
+  timeline = data.frame(title = c("Warren County CC", "Summit Prep", "Montclair State University", "UNA El Salvador", "TIAA", "Fordham University", "TIAA",  "DiMassimo Goldstein", "Fordham University"),
+                        sub = c("Pre-req; Student", "Director, Account Management", "BA, Economics", "Advisor", "Intern", "MA, Economics", "Consultant", "Intern", "PhD, Economics"),
+                        start = c(2014.75, 2015.75, 2016, 2018.25, 2017.50, 2018.50, 2018.60, 2019.60, 2020),
+                        end = c(2015.50, 2017, 2018.5, 2019.25, 2018, 2020, 2018.75, 2020, 2023.5),
+                        side = c(1, 0, 1, 0, 0, 1, 0, 0, 1)),
+  milestones = data.frame(title = c("BA", "MA", "PhD"),
+                          sub = c("Economics (Minor: Mathematics)", "Economics", "Economics (In progress)"),
+                         year = c(2018, 2020, 2023)),
+  events = data.frame(year = c(2016, 2018.50, 2020, 2020.5),
+                      title = c("Honors Scholarship, Montclair State University.",
+                                "Convocation Speaker for the Feliciano School of Business.",
+                                "Graduate Student Coordinator under Department Chair, Fordham University.",
+                                "Published Medium article discussing COVID-19 and wealth inequality.")),
+  interests = list("Software" = c(rep("R", 4), rep("Python", 4), rep("Matlab", 4), rep("Stata", 4)),
+                   "Econ Research" = c(rep("Macro", 1), rep("Behavioral", 1), rep("Empirical Finance", 1), rep("Computational", 1)),
+                   "Competencies" = c(rep("Big Data", 1), rep("Public Speaking", 1), rep("Stat. Modeling", 1), rep("Reporting", 1))),
   year.steps = 1
-)</code></pre>
+)
+</code></pre>
 
 <hr />
 

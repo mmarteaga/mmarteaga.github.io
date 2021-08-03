@@ -405,15 +405,15 @@ if (!doNotTrack) {
       <p> In order to account for potential joint effects with the exogenous monetary policy shocks and to address 
         the foregoing patterns, I regress the inflation expectations on the lagged shocks and individual characteristics.  </p>
         
-       <p>$$ E^h \textsc{Infl}_{t} = \beta_{0} + \beta_{1} MP_{t-1} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} $$</p>
+       <p>$$ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} $$</p>
       
       <p> where the dependent variable, $\E^h \textsc{Infl}_{t}$, takes on the form of the $h$ household's median point forecast for inflation 
         expectations at the 12- and 36-month horizon as well as the month over month adjustment for both forecasts (a total 
         of four distinct dependent variables whose value is derived at the month of the survey $t$) </p>
       
       <p> The lagged monetary policy shock $MP_{t-1}$ consists of the Federal Funds Shock and the Policy News Shock. A vector of 
-        controls is also included that contains the aforementioned variables and are collected from the household $$h$$ at the 
-        month of the survey $$t$$. $\lambda_h$ accounts for household fixed effects. $\beta_1$ is the coefficient of interest 
+        controls is also included that contains the aforementioned variables and are collected from the household $h$ at the 
+        month of the survey $t$. $\lambda_h$ accounts for household fixed effects. $\beta_1$ is the coefficient of interest 
         and will represent the average impact the monetary policy shock has on the dependent variables of household inflation 
         expectations. An additional exploration will include heterogeneous impacts of monetary policy by age and take on the form </p>
       
@@ -423,6 +423,8 @@ if (!doNotTrack) {
 <hr />
 
 <p><img src="/research/MPHHExp/hetexcp.pdf"></p>
+	
+	<p> Daily group average expected one-year inflation rates predicted by local penalized regressions using a generalized additive model with a smoothing parameter of 20. The shaded areas indicated the 95% confidence interval for the daily local regression estimates. The data are trimmed each week at the top and bottom 10% to control for the undue influence of outliers.</p>
 
     </div>
 
@@ -572,8 +574,6 @@ if (!doNotTrack) {
 <!-- for maths! -->
 
 	  <script src="/js/mathjax-config.js"></script>
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -590,6 +590,8 @@ if (!doNotTrack) {
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
         
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
  

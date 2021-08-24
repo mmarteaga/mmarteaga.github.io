@@ -401,15 +401,16 @@ if (!doNotTrack) {
 <!-- AUTHOR CARD -->
 <!-------------------------->
 
+
 <div class="media author-card" itemscope itemtype="http://schema.org/Person">
 
   <img class="portrait mr-3" src="/author/admin/MArteagasq.JPG" itemprop="image" alt="Avatar">
 
   <div class="media-body">
 
-    <h5 class="card-title" itemprop="name"> Mardoqueo Arteaga </h5>
+    <h5 class="card-title" itemprop="name"> Mardoqueo (Marc) Arteaga </h5>
 
-    <h6 class="card-subtitle">Economist and PhD Student</h6>
+    <h6 class="card-subtitle">Economist, PhD Student</h6>
 
     <ul class="network-icon" aria-hidden="true">
 
@@ -418,24 +419,16 @@ if (!doNotTrack) {
             <i class="fas fa-envelope"></i>
           </a>
         </li>
-        
+	    
+        <li>
+          <a href="/pdf/Arteaga_CV.pdf" data-target="/pdf/Arteaga_CV.pdf" rel="noopener">
+            <i class="ai ai-cv"></i>
+          </a>
+        </li>
+	   
         <li>
           <a itemprop="sameAs" href="https://www.linkedin.com/in/mmarteaga" target="_blank" rel="noopener">
             <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-      
-      
-        <li>
-          <a itemprop="sameAs" href="https://github.com/mmarteaga" target="_blank" rel="noopener">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      
-      
-        <li>
-          <a itemprop="sameAs" href="https://www.researchgate.net/profile/Mardoqueo_Arteaga" target="_blank" rel="noopener">
-            <i class="ai ai-researchgate"></i>
           </a>
         </li>
 
@@ -445,13 +438,6 @@ if (!doNotTrack) {
             <i class="fab fa-twitter"></i>
           </a>
         </li>
-
-        <!-- NOT PROFESH 
-        <li>
-          <a itemprop="sameAs" href="https://www.instagram.com/" target="_blank" rel="noopener">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li> -->
         
     </ul>
 
@@ -474,7 +460,9 @@ if (!doNotTrack) {
   
     <p class="powered-by">
       
-      &#169; 2021 Mardoqueo Arteaga. Views expressed on this site are my own.
+	&#169; 2021 Mardoqueo Arteaga. Inspired by the 
+	    <a href="https://wowchemy.com" target="_blank" rel="noopener">Academic theme</a> for 
+	    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
  
 
       <span class="float-right" aria-hidden="true">
@@ -501,8 +489,7 @@ if (!doNotTrack) {
 
   
 <!-- MISCELLANEOUS SCRIPTS AND ADDED INFORMATION -->
-  
-<div id="modal" class="modal fade" role="dialog">
+  <div id="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -527,11 +514,19 @@ if (!doNotTrack) {
   </div>
 </div>
 
+<script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
         
@@ -542,22 +537,51 @@ if (!doNotTrack) {
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
         
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
- 
+    
+
+    
+    
+    
+
+    
+    
     <script>hljs.initHighlightingOnLoad();</script>
     
+
+    
+    
     <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
       const content_type = {
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
+        'talk' : "Talks"
         };
     </script>
+    
+
+    
+    
+
+    
     
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
@@ -570,11 +594,30 @@ if (!doNotTrack) {
       </div>
       </div>
     </script>
-  
+    
+
+    
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
-      <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>
 
   </body>
 </html>

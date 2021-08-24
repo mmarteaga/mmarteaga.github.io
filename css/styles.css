@@ -44,14 +44,14 @@ body {
   padding-top: 0;
   counter-reset: captions;
 }
-@media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
+@media screen and (max-width: 100%) { /* Match max-width of .nav-bar query. */
   body {
     margin-top: 50px; /* Offset body content by navbar height. */
   }
 }
 
 .max-width-640 {
-  max-width: 640px;
+  max-width: 100%;
 }
 
 .margin-auto {
@@ -229,7 +229,7 @@ blockquote p:last-child {
 .space-below {
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .space-below {
     margin-bottom: 10px;
   }
@@ -298,7 +298,7 @@ small,
 .search-results > .container {
   padding-top: 70px;  /* Navbar height. */
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 100%) {
   .search-results > .container {
     padding-top: 50px;  /* Navbar height. */
   }
@@ -312,7 +312,7 @@ small,
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 100%) {
   .search-header {
     top: 50px;  /* Navbar height. */
   }
@@ -555,7 +555,7 @@ a[data-fancybox] img {
   background-color: hsla(231, 15%, 16%, 1);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .home-section {
     padding: 60px 0 60px 0;
   }
@@ -605,7 +605,7 @@ a[data-fancybox] img {
 }
 
 .hero-lead {
-  max-width: 768px;
+  max-width: 100%;
   font-size: 1.35rem;
 }
 
@@ -802,7 +802,7 @@ ul.ul-edu li .description p.institution {
 
 .people-widget .portrait {
   width: 80%;
-  max-width: 150px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -2043,7 +2043,7 @@ div.alert a {
  **************************************************/
 
 .docs-article-container {
-  max-width: 760px;
+  max-width: 100%;
 }
 
 /* Documentation: article footer. */

@@ -420,9 +420,11 @@ if (!doNotTrack) {
         </p>
 
       <p> In order to account for potential joint effects with the exogenous monetary policy shocks and to address 
-        the foregoing patterns, I regress the inflation expectations on the lagged shocks and individual characteristics. 
+        the foregoing patterns, I regress the inflation expectations on the lagged shocks and individual characteristics.</p> 
+	
+	<p>$$ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t}$$</p>
         
-       \[ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} \] </p>
+       <!--\[ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} \] </p>-->
       
       <p> where the dependent variable, \(E^h Infl_{t}\), takes on the form of the \(h\) household's median point forecast for inflation 
         expectations at the 12- and 36-month horizon as well as the month over month adjustment for both forecasts (a total 
@@ -432,9 +434,12 @@ if (!doNotTrack) {
         controls is also included that contains the aforementioned variables and are collected from the household \(h\) at the 
         month of the survey \(t\). \(\lambda_h\) accounts for household fixed effects. Then, the \(\beta_1\) is the coefficient of interest 
         and will represent the <i> average impact the monetary policy shock has on the dependent variables of household inflation 
-	      expectations</i>. An additional exploration will include heterogeneous impacts of monetary policy by age and take on the form 
+	      expectations</i>. An additional exploration will include heterogeneous impacts of monetary policy by age and take on the form </p>
+	
+	<p>$$E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1}\times Age_{h} + Age_{h} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t}</p>
       
-      \[ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1}\times Age_{h} + Age_{h} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} \] </p>
+	      
+     <!-- \[ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1}\times Age_{h} + Age_{h} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} \] </p>-->
       
       
 <hr />

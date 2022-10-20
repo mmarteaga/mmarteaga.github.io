@@ -102,7 +102,7 @@
   
   <meta property="og:site_name" content="Mardoqueo Arteaga">
   <meta property="og:url" content="https://mmarteaga.github.io/research/MPHHExp">
-  <meta property="og:title" content="Inflation Uncertainty and MP Announcements | Mardoqueo Arteaga">
+  <meta property="og:title" content="MP Announcements and Household Expectations of the Future | Mardoqueo Arteaga">
   <meta property="og:description" content="The focus of this paper is to estimate the fit of a DSGE model with a bounded rationality assumption to US economic data. Bounded rationality is in the form of cognitive discounting, or “myopia”, which quantifies how people pay less attention to events occurring further in the future.">
   <meta property="twitter:image" content="/images/ma_icon.jpg"><meta property="og:locale" content="en-us">
   
@@ -130,7 +130,7 @@
 <!-- MAIN PROJECT NAME -->
 <!-------------------------->
   
-  <title>Inflation Uncertainty and MP Announcements | Mardoqueo Arteaga </title>
+  <title>MP Announcements and Household Expectations of the Future | Mardoqueo Arteaga </title>
   </head>
 
   
@@ -321,7 +321,7 @@ if (!doNotTrack) {
 
 <div class="article-container pt-3">
 	
-	<h1 itemprop="name"> Inflation Uncertainty and Monetary Policy Announcements </h1>
+	<h1 itemprop="name"> Monetary Policy Announcements and Household Expectations of the Future </h1>
 	
 	<div class="article-metadata">
 		
@@ -337,7 +337,7 @@ if (!doNotTrack) {
 		
 		<span class="article-date">
 			
-			<time>Work in Progress, 2020</time>
+			<time>Flagship Paper Summary, 2022</time>
 		
 		</span>
   
@@ -405,50 +405,28 @@ if (!doNotTrack) {
 
 <div class="article-container">
 <div class="article-style" itemprop="articleBody">
-     <h2 id="introduction"> Preview </h2>
-      <p> Household expectations about economic conditions, such as inflation, drive a wide range of decisions that include saving, borrowing, and consumption. 
-	      The transmission of monetary policy, then, rests on understanding how these expectations change, and therefore the 
-	      transparency of central bank communication is key in aligning both sides. Inflation expectations, specifically, 
-	      represent a key variable that the central bank monitors carefully. In theory, transparent communication makes 
-	      policy decisions more predictable and creates more policy options at the effective lower bound (<b> Blinder, 2009</b>),
-	      but in practice, this effectiveness hinges on the communication actually changing beliefs of economic agents in the 
-	      right direction and in the adequate amount of time. There is a growing understanding of how communication, or 
-	      announcements in the form of news, by the central bank affects expectations of financial market participants and 
-	      professional forecasters (<b> (Campbell, Evans, Fisher, & Justiniano, 2012), (Negro, Giannoni, & Patterson, 2012),
-	      (Nakamura & Steinsson, 2018)</b>), but much less is known about the role 
-	      of announcements on the beliefs of the general public. </p>
+     <h2 id="introduction"> Introduction </h2>
+      <p> Household expectations about economic conditions, such as inflation, drive a wide range of decisions that include 
+	      saving, borrowing, and consumption. To proactively manage economic overheating or slack, then, the central bank 
+	      must strive to relay information about the future policy path while concurrently understanding how these expectations 
+	      change. In theory, transparent communication makes policy decisions more predictable and creates more policy 
+	      options at the effective lower bound, but in practice, this effectiveness hinges on the 
+	      communication actually changing beliefs of economic agents in the right direction and in the adequate amount of 
+	      time. Recent studies on this topic are contradictory: one strand finds that central bank communication is effective 
+	      in changing not only the expectations of economic agents but also their future behavior
+	      while the competing narrative is that the same communication has little effect on both. 
+	      With this ambiguity in mind, there is room to explore the dynamics of changing beliefs regarding macroeconomic expectations 
+	      and whether monetary policy plays a role in affecting these, as it is designed to do so.   </p>
 	
-	<p> In this paper, I ask whether monetary policy announcements 
-	      have a meaningful impact on household inflation beliefs, specifically in their uncertainty about future macroeconomic 
-	      conditions, using a well-established monthly survey of public beliefs, the Survey of Consumer Expectations (SCE) 
-	      by the Federal Reserve Bank of New York. The SCE began in June 2013 and is a 
-	      nationally representative online survey comprising of a 12-month rotating group of approximately 1,300 household heads.
-	      The surveys objective is to solicit households for a variety of quantitative measures for a wide range of economic 
-	      outcomes (e.g. inflation, income, household finance, and employment). <b>Armantier, Topa, et al (2017)</b> provide the 
-	      specific components of expectations solicitation.
+	<p> In this paper, I first explore the dynamics of beliefs regarding a variety of economically relevant variables for households 
+		by studying the nature of risk from inflation expectations. Encouraged by studies documenting over- and under-reaction 
+		in macroeconomic expectations, I use inflation expectation tail risks, the probability of extreme inflation outcomes, 
+		to  empirically study how other expectations of households change without imposing additional restrictions. I then 
+		contribute to the understanding of household reactions to policy decisions by testing whether monetary policy 
+		communications have meaningful impacts on household beliefs, specifically in their uncertainty about future macroeconomic 
+		conditions, such as inflation, and their own, such as income. 
         </p>
 
-      <p> In order to account for potential joint effects with the exogenous monetary policy shocks and to address 
-        the foregoing patterns, I regress the inflation expectations on the lagged shocks and individual characteristics.</p> 
-	
-	<p>$$ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t}$$</p>
-        
-       <!--\[ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} \] </p>-->
-      
-      <p> where the dependent variable, \(E^h Infl_{t}\), takes on the form of the \(h\) household's median point forecast for inflation 
-        expectations at the 12- and 36-month horizon as well as the month over month adjustment for both forecasts (a total 
-        of four distinct dependent variables whose value is derived at the month of the survey \(t\)). </p>
-      
-      <p> The lagged monetary policy shock \(MP_{t-1}\) consists of the Federal Funds Shock and the Policy News Shock. A vector of 
-        controls is also included that contains the aforementioned variables and are collected from the household \(h\) at the 
-        month of the survey \(t\). \(\lambda_h\) accounts for household fixed effects. Then, the \(\beta_1\) is the coefficient of interest 
-        and will represent the <i> average impact the monetary policy shock has on the dependent variables of household inflation 
-	      expectations</i>. An additional exploration will include heterogeneous impacts of monetary policy by age and take on the form </p>
-	
-	<p>$$E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1}\times Age_{h} + Age_{h} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t}$$</p>
-      
-	      
-     <!-- \[ E^h Infl_{t} = \beta_{0} + \beta_{1} MP_{t-1}\times Age_{h} + Age_{h} + \beta_{2} \mathbf{X}_{h,t} + \lambda_{h} + \epsilon_{h,t} \] </p>-->
       
       
 <hr />
@@ -457,11 +435,12 @@ if (!doNotTrack) {
 	
 	<p> <b> Figure 1: </b> Daily group average expected one-year inflation rates predicted by local penalized regressions 
 		using a generalized additive model with a smoothing parameter of 20. The shaded areas indicated the 95% 
-		confidence interval for the daily local regression estimates. The data are trimmed each week at the top and 
+		confidence interval for the daily local regression estimates. The data, obtained from the Survey of Consumer 
+		Expectations solicited by the Federal Reserve Bank of New York, are trimmed each week at the top and 
 		bottom 10% to control for the undue influence of outliers.</p>
 	
 	
-<h2 id="references">References</h2>
+<h2 id="references">Related Literature</h2>
 
 <ul>
 <li>Armantier, O., Topa, G., der Klaauw, W. V., & Zafar, B. (2017). An overview of the Survey of Consumer Expectations. Economic Policy Review(23-2), 51-72.</li>

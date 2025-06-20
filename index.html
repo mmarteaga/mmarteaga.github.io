@@ -156,66 +156,62 @@ if (!doNotTrack) {
 <!-- NAVIGATION BAR AT THE TOP --> 
 <!-------------------------->
   
-  <nav id="navbar-main"
-     class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top py-0">
+<nav id="navbar-main"
+     class="navbar navbar-expand-lg fixed-top py-0 navbar-dark"
+     style="background-color: #000;">
   <div class="container d-flex align-items-center">
-    
-    <!-- 1) Social icons always visible on left -->
-    <div class="navbar-social">
-      <a href="mailto:arteaga@fordham.edu" class="text-white mx-2">
-        <i class="fas fa-envelope"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/mmarteaga" class="text-white mx-2">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://github.com/mmarteaga" class="text-white mx-2">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en"
-         class="text-white mx-2">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </div>
-
-    <!-- 2) Toggler for mobile -->
-    <button class="navbar-toggler ml-auto" type="button"
+    <!-- Mobile toggler -->
+    <button class="navbar-toggler mr-3" type="button"
             data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- 3) Collapsible nav links + dark toggle -->
+    <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarNav">
-      <!-- Left-grouped items -->
+      <!-- 1) Page links on left -->
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/research/">Research</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/writing/">Writing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/miscellania/">Miscellania</a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
+        <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
       </ul>
-      <!-- Right-grouped dark-mode toggle -->
-      <ul class="navbar-nav">
+
+      <!-- 2) Social icons + dark-toggle on right -->
+      <ul class="navbar-nav align-items-center">
+        <!-- Social icons as nav-items -->
         <li class="nav-item">
-          <a href="#" class="nav-link js-dark-toggle" title="Toggle theme">
+          <a class="nav-link text-white" href="mailto:arteaga@fordham.edu" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://www.linkedin.com/in/mmarteaga" title="LinkedIn" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://github.com/mmarteaga" title="GitHub" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en" title="Google Scholar" target="_blank">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+        </li>
+        <!-- Dark-mode toggle -->
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#" title="Toggle theme">
             <i class="fas fa-moon"></i>
           </a>
         </li>
       </ul>
     </div>
-    
   </div>
 </nav>
 
-  
   
   
 

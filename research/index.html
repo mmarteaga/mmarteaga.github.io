@@ -131,96 +131,57 @@
 <!-- NAVIGATION BAR AT THE TOP --> 
 <!-------------------------->
   
-  <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container">
-       <!-- Left: Social -->
-      <div class="navbar-social" style="color:#fff;"> </a>
-         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        
-        <span><i class="fas fa-bars"></i></span>
-        
-      </button>
-        <a href="mailto:arteaga@fordham.edu"           class="text-white mx-2"><i class="fas fa-envelope"></i></a>
-        <a href="https://linkedin.com/in/mmarteaga"    class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/mmarteaga"         class="text-white mx-2"><i class="fab fa-github"></i></a>
-        <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en"
-                                                        class="text-white mx-2"><i class="ai ai-google-scholar"></i></a>
-      </div>
-
-      <!-- Toggler -->
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-              data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- ADDITIONAL SECTIONS -->
-    
-      <div class="collapse navbar-collapse" id="navbar">
-      
-        <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item">
-          <a class="nav-link" href="/#about" data-target="#about">
-            <span>Home</span>
-          </a>
-        </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#projects" data-target="#projects">
-            <span>Projects</span>
-          </a>
-        </li>
-
-
-	<li class="nav-item">
-          <a class="nav-link" href="/#posts" data-target="#posts">
-            <span>Posts</span>
-          </a>
-        </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#resources" data-target="#resources">
-            <span>Resources</span>
-          </a>
-        </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#contact" data-target="#contact">
-            <span>Contact</span>
-          </a>
-        </li>
-
-        
-       <!-- <li class="nav-item">
-          <a class="nav-link" href="/pdf/Arteaga_CV.pdf" data-target="/pdf/Arteaga_CV.pdf">
-            <span>CV</span>
-          </a>
-        </li> -->
-	
-        
-        <!--<li class="nav-item">
-          <a class="nav-link" href="/pdf/Arteaga_RES.pdf" data-target="/pdf/Arteaga_RES.pdf">
-            <span>Industry Resume</span>
-          </a>
-        </li>-->
-        	
- 
-        </ul>
-	      
-        <!-- Light/Dark Option-->
-       <ul class="navbar-nav ml-auto"> 
-          
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-	</ul>
-
-      </div>
+ <!-- NAVBAR -->
+<nav id="navbar-main"
+     class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top py-0">
+  <div class="container d-flex align-items-center">
+    <!-- Social icons -->
+    <div class="navbar-social">
+      <a href="mailto:arteaga@fordham.edu" class="text-white mx-2">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://linkedin.com/in/mmarteaga" class="text-white mx-2">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/mmarteaga" class="text-white mx-2">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en"
+         class="text-white mx-2">
+        <i class="ai ai-google-scholar"></i>
+      </a>
     </div>
-  </nav>
+
+    <!-- collapse button -->
+    <button class="navbar-toggler ml-auto" type="button"
+            data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- nav links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/research/">Research</a>
+          <span class="sr-only">(current)</span>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
+        <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
+        <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
+
+        <!-- dark toggle must have class js-dark-toggle -->
+        <li class="nav-item">
+          <a href="#" class="nav-link js-dark-toggle" title="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
   
 
 <!------------------>
@@ -375,11 +336,9 @@
 
   <!-- ========== FOOTER SCRIPTS ========== -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script src="/js/theme.js"></script>
-  <script src="/js/dark_mode.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/dark_mode.js"></script>
+
 </body>
 </html>

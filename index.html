@@ -6,7 +6,7 @@
   <!-- 1. META & SEO           -->
   <!-- ========================= -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="Mardoqueo (Marc) Arteaga">
   <meta name="description" content="Economist @ LinkedIn using data science, economics, and behavioral insights.">
@@ -21,14 +21,9 @@
   <meta property="og:site_name"   content="Mardoqueo Arteaga">
   <meta property="og:url"         content="https://mmarteaga.github.io/">
   <meta property="og:title"       content="Mardoqueo Arteaga, PhD">
-  <meta property="og:description" content="Applied economist & behavioral macro-modeler">
+  <meta property="og:description" content="Trying to be a better human">
   <meta property="og:image"       content="/images/ma_icon.jpg">
   <meta property="og:locale"      content="en-us">
-
-  <meta name="twitter:card"    content="summary">
-  <meta name="twitter:site"    content="@mm_arteaga">
-  <meta name="twitter:creator" content="@mm_arteaga">
-  <meta name="twitter:image"   content="/images/ma_icon.jpg">
 
   <!-- ========================= -->
   <!-- 3. FAVICONS & MANIFEST    -->
@@ -51,9 +46,6 @@
   <!-- Code Highlighting -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" title="hl-light">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" title="hl-dark" disabled>
-
-  <!-- Leaflet (if you map) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
 
   <!-- Google Fonts -->
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
@@ -131,23 +123,29 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Right: Section Links + Dark Toggle -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto align-items-center">
-          <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
-          <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
-          <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
-          <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
-          <li class="nav-item">
-            <button id="dark-toggle" class="btn btn-link nav-link p-0 ml-3" title="Toggle theme">
-              <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
-            </button>
-          </li>
-        </ul>
+      <!-- Right-side Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+            <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
+            <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
+            <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
+            <!-- <li class="nav-item">
+              <button id="dark-toggle" class="nav-link btn btn-link p-0 ml-3" title="Toggle theme">
+                <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
+              </button> -->
+            </li>
+          </ul>
+            <!-- Light/Dark Option-->
+       <ul class="navbar-nav ml-auto"> 
+          
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+	</ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
   <!-- ========================= -->
   <!-- 9. HERO / ABOUT SECTION  -->
@@ -157,13 +155,71 @@
       <div class="row">
         <!-- Left: Portrait -->
         <div class="col-12 col-lg-4">
-          <img src="/images/MArteagasq.JPG" alt="Marc Arteaga" class="img-fluid rounded mb-3">
+          <img src="/author/admin/MArteagasq.JPG" alt="Mardoqueo Arteaga, 2025" class="img-fluid rounded mb-3">
         </div>
         <!-- Right: Intro -->
         <div class="col-12 col-lg-8">
           <h1>Mardoqueo Arteaga</h1>
-          <p>Welcome! I’m an applied economist at <a href="https://business.linkedin.com/marketing-solutions" target="_blank">LinkedIn Marketing Solutions</a>, where I blend data science, economics, and behavioral insights to drive marketing strategy and storytelling.</p>
-          <p>Explore my <a href="/research/">Research</a>, check out my <a href="/projects/">Projects</a>, dive into my <a href="/writing/">Writing</a>, watch <a href="/videos/">Videos</a>, or browse <a href="/miscellania/">Miscellania</a>.</p>
+          <p>Welcome! I'm an applied economist at <a href="https://business.linkedin.com/marketing-solutions" target="_blank">LinkedIn</a> where I use data science, economics, and behavioral insights to deliver data-driven marketing strategy and client-focused storytelling.</p>
+          <p>Explore my <a href="/research/">Research</a>, dive into my <a href="/writing/">Writing</a>, watch <a href="/videos/">Videos</a>, or browse <a href="/miscellania/">Miscellania</a>.</p>
+
+
+            <!-- RESEARCH INTERESTS AND EDUCATION -->
+      
+     <div class="row">
+
+       <div class="col-md-5">
+        
+        <h3>Research Interests</h3>
+          
+          <ul class="ul-interests">
+          
+          <li> Expectations Modeling </li>
+		  
+	  <li> Machine Learning </li>
+          
+          <li> Macroeconomics </li>
+		  
+	  <li> Engagement </li>
+		  
+
+          </ul>
+        
+      </div> 
+
+       <div class="col-md-7">
+        
+        <h3>Education</h3>
+        
+          <ul class="ul-edu fa-ul">
+          
+          <li><i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description"> 
+              <p class="course"> Fordham University  </p>
+              <p class="institution">Ph.D., Economics, (Student Council President), 2023</p>
+	      <p class="institution"><a href="/pdf/Arteaga_Dissertation.pdf">Essays in Empirical Macroeconomics and Expectations</a></p>
+              </div>
+          </li>
+          
+          <li><i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+              <p class="course"> Columbia University </p>
+              <p class="institution"> Visiting Doctoral Student, 2021</p>
+              </div>
+          </li>
+          
+          <li><i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course"> Montclair State University </p>
+              <p class="institution"> B.A., Economics and Math, (Convocation Speaker), 2018 </p>
+              </div>
+          </li>
+          
+          </ul> 
+        
+       </div> 
+
+          
         </div>
       </div>
     </div>

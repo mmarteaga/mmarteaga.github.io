@@ -1,470 +1,182 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
-
+  <!-- ========================= -->
+  <!-- 1. META & SEO           -->
+  <!-- ========================= -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.1.0">
-  <meta name="generator" content="Hugo 0.54.0" />
-  <link rel="shortcut icon" type="image/x-icon" href="{{ "/images/ma_icon.jpg"  | absolute_url }}">
-  
-
-  
-  
-<!-------------------------->
-<!-- BACKEND INFORMATION -->
-<!-------------------------->
-  
   <meta name="author" content="Mardoqueo (Marc) Arteaga">
-  <meta name="description" content="Economist and PhD Student">
-  <link rel="alternate" hreflang="en-us" href="https://mmarteaga.github.io/">
-  <meta name="theme-color" content="hsl(210, 90%, 68%)">
-  
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
-  
-  
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
-  
-  
-  
-  
-<!-------------------------->  
-<!-- CSS CUSTOMIZATION -->
-<!-------------------------->
-  
-	<!-- This is the original Academic style... -->
-    <!--<link rel="stylesheet" href="/css/academic.min.2d9af7491a9e69372b25df62982e70ff.css"> -->
-	<!-- This is my own take -->
-	<link rel="stylesheet" href="/css/styles.css">
-  
-  
-<!-------------------------->  
-<!-- possible space for GOOGLE TAGS! -->
-<!-------------------------->
-  
-  
-  
-<!-------------------------->  
-<!-- ADDITIONAL INFORMATION REGARDING SCRIPTING ET AL -->
-<!-------------------------->
-  
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-  
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Mardoqueo Arteaga">
-  <link rel="feed" href="https://mmarteaga.github.io/index.xml" type="application/rss+xml" title="Mardoqueo Arteaga">
-
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/ma_icon.jpg">
-  <link rel="apple-touch-icon" type="image/png" href="/images/ma_icon.jpg">
+  <meta name="description" content="Economist @ LinkedIn using data science, economics, and behavioral insights.">
+  <meta name="theme-color" content="hsl(210,90%,68%)">
 
   <link rel="canonical" href="https://mmarteaga.github.io/">
+  <link rel="alternate" hreflang="en-us" href="https://mmarteaga.github.io/">
 
-  
-  
-  
-<!-------------------------->    
-<!-- META PROPERTY INFORMATION -->
-<!-------------------------->
-  
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="twitter:site" content="@mm_arteaga">
-  <meta property="twitter:creator" content="@mm_arteaga">
-  
-  <meta property="og:site_name" content="Mardoqueo (Marc) Arteaga">
-  <meta property="og:url" content="https://mmarteaga.github.io/">
-  <meta property="og:title" content="Mardoqueo (Marc) Arteaga">
-  <meta property="og:description" content="Economist, working on a PhD"><meta property="og:image" content="/images/ma_icon.jpg">
-  <meta property="twitter:image" content="/images/ma_icon.jpg"><meta property="og:locale" content="en-us">
-  
-  <meta property="og:locale" content="en-us">
-  
-  <meta property="og:updated_time" content="2020-11-25T12:00:00&#12;01:00">
-  
+  <!-- ========================= -->
+  <!-- 2. OPEN GRAPH & TWITTER  -->
+  <!-- ========================= -->
+  <meta property="og:site_name"   content="Mardoqueo Arteaga">
+  <meta property="og:url"         content="https://mmarteaga.github.io/">
+  <meta property="og:title"       content="Mardoqueo Arteaga, PhD">
+  <meta property="og:description" content="Applied economist & behavioral macro-modeler">
+  <meta property="og:image"       content="/images/ma_icon.jpg">
+  <meta property="og:locale"      content="en-us">
 
+  <meta name="twitter:card"    content="summary">
+  <meta name="twitter:site"    content="@mm_arteaga">
+  <meta name="twitter:creator" content="@mm_arteaga">
+  <meta name="twitter:image"   content="/images/ma_icon.jpg">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://mmarteaga.github.io/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://mmarteaga.github.io/"
-}
-</script>
+  <!-- ========================= -->
+  <!-- 3. FAVICONS & MANIFEST    -->
+  <!-- ========================= -->
+  <link rel="shortcut icon"       href="/images/ma_icon.jpg" type="image/x-icon">
+  <link rel="icon"                href="/images/ma_icon.jpg" type="image/png">
+  <link rel="apple-touch-icon"    href="/images/ma_icon.jpg">
+  <link rel="manifest"            href="/index.webmanifest">
 
-  
+  <!-- ========================= -->
+  <!-- 4. CSS & FONTS           -->
+  <!-- ========================= -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
 
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css">
 
+  <!-- Code Highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" title="hl-light">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" title="hl-dark" disabled>
 
-<!-------------------------->
-<!-- MAIN WEBSITE NAME -->
-<!-------------------------->
-  
-  <title>Mardoqueo Arteaga</title>
-  
-  
-  <script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-182961890-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-	
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-182961890-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Leaflet (if you map) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
 
-  gtag('config', 'UA-182961890-1');
-</script>
-  
-	
-	
-<style>body>script+div[style^="text"]{display:none}html,body {overflow-x:hidden!important}</style>	
-	
-	
-	
-	
-  </head>
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
 
+  <!-- Your custom overrides -->
+  <link rel="stylesheet" href="/css/styles.css">
 
-  
-  
-  
-<!-------------------------->
-<!-- BODY (I BELIEVE THIS IS SEARCH BAR, COULD BE OFF) -->
-<!-------------------------->
-  
-<body id="top" data-spy="scroll" data-offset="71" data-target="#navbar-main">
-  
-  <aside class="search-results" id="search">
-    
+  <!-- ========================= -->
+  <!-- 5. RSS & SEARCH          -->
+  <!-- ========================= -->
+  <link rel="alternate" href="/index.xml"        type="application/rss+xml" title="Mardoqueo Arteaga">
+  <link rel="feed"      href="/index.xml"        type="application/rss+xml" title="Mardoqueo Arteaga">
+  <link rel="search"    href="/index.json"       title="Search Index">
+
+  <!-- ========================= -->
+  <!-- 6. JSON-LD STRUCTURED DATA-->
+  <!-- ========================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://mmarteaga.github.io/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://mmarteaga.github.io/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ========================= -->
+  <!-- 7. ANALYTICS & SCRIPTS   -->
+  <!-- ========================= -->
+  <!-- Autotrack -->
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+
+  <!-- Google Analytics (analytics.js) -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-182961890-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Global site tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-182961890-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-182961890-1');
+  </script>
+</head>
+
+<body id="top" class="fixed-top-nav sticky-bottom-footer" data-spy="scroll" data-offset="71" data-target="#navbar-main">
+
+  <!-- ========================= -->
+  <!-- 8. NAVBAR                -->
+  <!-- ========================= -->
+  <nav id="navbar-main" class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top py-0">
+    <div class="container d-flex align-items-center">
+      <!-- Left: Social Icons (all white on dark bg) -->
+      <div class="navbar-social">
+        <a href="mailto:arteaga@fordham.edu"           class="text-white mx-2" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/mmarteaga" class="text-white mx-2" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/mmarteaga"          class="text-white mx-2" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en"
+                                                     class="text-white mx-2" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      </div>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Right: Section Links + Dark Toggle -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
+          <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
+          <li class="nav-item">
+            <button id="dark-toggle" class="btn btn-link nav-link p-0 ml-3" title="Toggle theme">
+              <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========================= -->
+  <!-- 9. HERO / ABOUT SECTION  -->
+  <!-- ========================= -->
+  <section id="about" class="home-section wg-about mt-5 pt-5">
     <div class="container">
-    
-      <section class="search-header">
-
-        <div class="row no-gutters justify-content-between mb-3">
-          
-          <div class="col-6">
-            
-            <h1>Search</h1>
-            
-          </div>
-          
-        <div class="col-6 col-search-close">
-          
-            <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        
+      <div class="row">
+        <!-- Left: Portrait -->
+        <div class="col-12 col-lg-4">
+          <img src="/images/MArteagasq.JPG" alt="Marc Arteaga" class="img-fluid rounded mb-3">
         </div>
-          
+        <!-- Right: Intro -->
+        <div class="col-12 col-lg-8">
+          <h1>Mardoqueo Arteaga</h1>
+          <p>Welcome! I’m an applied economist at <a href="https://business.linkedin.com/marketing-solutions" target="_blank">LinkedIn Marketing Solutions</a>, where I blend data science, economics, and behavioral insights to drive marketing strategy and storytelling.</p>
+          <p>Explore my <a href="/research/">Research</a>, check out my <a href="/projects/">Projects</a>, dive into my <a href="/writing/">Writing</a>, watch <a href="/videos/">Videos</a>, or browse <a href="/miscellania/">Miscellania</a>.</p>
         </div>
-
-        <div id="search-box">
-        
-          <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
-        
-        </div>
-
-      </section>
-      
-      <section class="section-search-results">
-
-        <div id="search-hits">
-        
-      </div>
-
-      </section>
-    </div>
-  </aside>
-
-  
-<!-------------------------->  
-<!-- NAVIGATION BAR AT THE TOP --> 
-<!-------------------------->
-
-<body class="fixed-top-nav sticky-bottom-footer">
-    <!-- Navbar -->
-     <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-      <div class="container">
-        <!-- Social Icons Left -->
-        <div class="navbar-social">
-          <a href="mailto:arteaga@fordham.edu" class="text-dark mx-2" title="Email"><i class="fas fa-envelope"></i></a>
-          <a href="https://www.linkedin.com/in/mmarteaga" class="text-dark mx-2" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/mmarteaga" class="text-dark mx-2" title="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en" class="text-dark mx-2" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-        </div>
-
-        <!-- Navbar Toggler -->
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Right-side Nav Links -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto align-items-center">
-            <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
-            <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
-            <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
-            <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
-            <!-- <li class="nav-item">
-              <button id="dark-toggle" class="nav-link btn btn-link p-0 ml-3" title="Toggle theme">
-                <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
-              </button> -->
-            </li>
-          </ul>
-            <!-- Light/Dark Option-->
-       <ul class="navbar-nav ml-auto"> 
-          
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-	</ul>
-        </div>
-      </div>
-    </nav>
-  
-  
-  
-  
-
-<!-------------------------->  
-<!-- SECTION 1: HOMEPAGE -->
-<!-------------------------->
-  
-<span id="homepage" class="d-none"></span>
-  
-  <section id="about" class="home-section wg-about  " >
-    
-    <div class="container">
-
-    <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-      
-    <div class="col-12 col-lg-4">
-      
-    <div id="profile">
-    
-    <!-- MAIN PICTURE AND INFORMATION -->
-	    
-    <a href="https://mmarteaga.github.io/research/test/" class="card-image hover-overlay">
-	    <img class="portrait" src="/author/admin/MArteagasq.JPG" itemprop="image" alt="Avatar"> 
-
-    <!-- <div class="img-responsive"> </a> -->
-     
-       
-     <!-- </h3> -->
-      	    <!-- <h4 itemprop="pronounce"><small> <code> mar-doe-KEH-oh  ar-TEH-aga </code></small></h4> -->
-	    <!--<h4 itemprop="pronounce"><small><small> <a href="https://www.worldhistory.org/Marduk/" target="blank">Interested in the origin of my name?</small></small></a> </h4> -->
-    <!-- </div> -->
-      
-    <!-- LINKS UNDERNEATH MAIN PICTURE AND INFORMATION --> 
-      
-    <!-- <link itemprop="url" href=""> -->
-
-    <!-- <ul class="network-icon" aria-hidden="true">
-        
-        <li>
-          <a itemprop="sameAs" href="mailto:arteaga@fordham.com" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-	    
-	   
-        <li>
-          <a itemprop="sameAs" href="https://www.linkedin.com/in/mmarteaga" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-
-        
-    </ul> -->
-
-    </div>
-    </div>
- 
-    <!-- DESCRIPTION -->
-      
-    <div class="col-12 col-lg-8" itemprop="description">
-	    
-	<h1>Mardoqueo Arteaga</h1>    
-      <p> Welcome! I am an applied economist at
-  <a href="https://business.linkedin.com/marketing-solutions" target="_blank" rel="noopener noreferrer">
-    LinkedIn</a> where I use data science, economics, and behavioral insights to deliver data-driven marketing strategy and client-focused storytelling.</p>
-	    
-	  <p>
-  Explore my <a href="/research/">Research</a>, read my <a href="/writing/">Writing</a>, watch my <a href="/videos/">Videos</a>, or check out some practical <a href="/misc/">Miscellania</a>.</p>
-</p>
-
-	    <!-- <p> To aspiring professionals from underrepresented backgrounds like my own: Your perspective is invaluable. If you seek guidance or a conversation, please don't hesitate to reach out.</p> -->
-	    <!-- <p> <h4 itemprop="pronounce"><small> <emph> The views expressed on this site are my own, and do not reflect those of any of my former or current employers. </emph> </small></h4> </p>
-	     -->
-    <!-- RESEARCH INTERESTS AND EDUCATION -->
-      
-    <!-- <div class="row">
-
-      <!-- <div class="col-md-5">
-        
-        <h3>Research Interests</h3>
-          
-          <ul class="ul-interests">
-          
-          <li> Expectations Modeling </li>
-		  
-	  <li> Machine Learning </li>
-          
-          <li> Macroeconomics </li>
-		  
-	  <li> Engagement </li>
-		  
-
-          </ul>
-        
-      </div> -->
-
-      <!-- <div class="col-md-7">
-        
-        <h3>Education</h3>
-        
-          <ul class="ul-edu fa-ul">
-          
-          <li><i class="fa-li fas fa-graduation-cap"></i>
-              <div class="description"> 
-              <p class="course"> Fordham University  </p>
-              <p class="institution">Ph.D., Economics, (Student Council President), 2023</p>
-	      <p class="institution"><a href="/pdf/Arteaga_Dissertation.pdf">Essays in Empirical Macroeconomics and Expectations</a></p>
-              </div>
-          </li>
-          
-          <li><i class="fa-li fas fa-graduation-cap"></i>
-              <div class="description">
-              <p class="course"> Columbia University </p>
-              <p class="institution"> Visiting Doctoral Student, 2021</p>
-              </div>
-          </li>
-          
-          <li><i class="fa-li fas fa-graduation-cap"></i>
-              <div class="description">
-                <p class="course"> Montclair State University </p>
-              <p class="institution"> B.A., Economics and Math, (Convocation Speaker), 2018 </p>
-              </div>
-          </li>
-          
-          </ul> -->
-        
-      <!-- </div> --> 
-
-     </div>
-    </div>
-  </div>
- </div>
-</section>
-    
-
-
-  
-<!-- MISCELLANEOUS SCRIPTS AND ADDED INFORMATION -->
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/julia.min.js"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
- 
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
-        };
-    </script>
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-
-      <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
-
-  </body>
+  <!-- ========================= -->
+  <!-- 10. FOOTER SCRIPTS       -->
+  <!-- ========================= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/dark_mode.js"></script>
+</body>
 </html>
-
-<!-- 
-
-COMMENTS for June 2025. 
-
--->

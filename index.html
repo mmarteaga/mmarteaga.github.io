@@ -442,99 +442,88 @@ if (!doNotTrack) {
     
 
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mardoqueo Arteaga</title>
-    <meta name="author" content="Mardoqueo Arteaga">
-    <meta name="description" content="Economist specializing in expectation formation and behavioral macro-modeling at LinkedIn.">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/images/ma_icon.jpg" type="image/png">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- FontAwesome & Academicons -->
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" rel="stylesheet">
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-  </head>
-
-  <body class="fixed-top-nav sticky-bottom-footer">
-    <!-- Navbar -->
-    <nav class="navbar navbar-light navbar-expand-sm fixed-top bg-white shadow-sm">
-      <div class="container d-flex align-items-center">
-        <!-- Social Icons Left -->
-        <div class="navbar-social mr-3">
-          <a href="mailto:arteaga@fordham.edu" class="text-dark mx-1" title="Email"><i class="fas fa-envelope"></i></a>
-          <a href="https://www.linkedin.com/in/mmarteaga" class="text-dark mx-1" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/mmarteaga" class="text-dark mx-1" title="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://scholar.google.com/citations?user=_" class="text-dark mx-1" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-        </div>
-        <!-- Brand -->
-        <a class="navbar-brand font-weight-bold mx-3" href="/">Mardoqueo Arteaga</a>
-        <!-- Dark Mode Toggle -->
-        <button id="dark-toggle" class="btn btn-outline-secondary ml-auto mr-2" title="Toggle theme">
-          <i class="fas fa-moon"></i>
-          <i class="fas fa-sun"></i>
+  
+<!-- MISCELLANEOUS SCRIPTS AND ADDED INFORMATION -->
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
         </button>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
-            <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
-            <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
-          </ul>
-        </div>
       </div>
-    </nav>
-
-    <!-- Main Content -->
-    <div class="container mt-5 pt-5">
-      <div class="row">
-        <!-- Photo Sidebar -->
-        <div class="col-md-4 text-center">
-          <img src="/assets/img/profile.jpg" class="img-fluid rounded mb-3" alt="Portrait of Mardoqueo Arteaga">
-          <div>
-            <a href="mailto:arteaga@fordham.edu" class="mx-2"><i class="fas fa-envelope fa-lg"></i></a>
-            <a href="https://github.com/mmarteaga" class="mx-2"><i class="fab fa-github fa-lg"></i></a>
-            <a href="https://www.linkedin.com/in/mmarteaga" class="mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
-            <a href="https://scholar.google.com/citations?user=_" class="mx-2"><i class="ai ai-google-scholar fa-lg"></i></a>
-          </div>
-        </div>
-        <!-- Intro -->
-        <div class="col-md-8">
-          <h1 class="mt-4">Hello, I’m Mardoqueo Arteaga</h1>
-          <p class="lead">I’m an economist at LinkedIn, specializing in expectation formation, behavioral macro-modeling, and causal inference. I translate complex data into strategic insights for marketing and policy.</p>
-          <p>Welcome to my site. Explore my work in <a href="/research/">Research</a>, discover practical <a href="/projects/">Projects</a>, read my <a href="/writing/">Writing</a>, or watch my <a href="/videos/">Videos</a>.</p>
-        </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
       </div>
     </div>
+  </div>
+</div>
 
-    <!-- Footer -->
-    <footer class="bg-light text-center py-3 mt-5">
-      <div class="container">
-        <small>&copy; 2025 Mardoqueo Arteaga.</small>
-      </div>
-    </footer>
-
-    <!-- JS Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/julia.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+ 
+    <script>hljs.initHighlightingOnLoad();</script>
+    
     <script>
-      // Dark mode toggle script (example)
-      document.getElementById('dark-toggle').addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-      });
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
     </script>
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+      <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
   </body>
 </html>
+
+<!-- 
+
+COMMENTS for June 2025. 
+
+-->

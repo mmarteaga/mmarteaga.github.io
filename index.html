@@ -204,87 +204,41 @@ if (!doNotTrack) {
 <!-------------------------->  
 <!-- NAVIGATION BAR AT THE TOP --> 
 <!-------------------------->
-  
-  <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-    
-  <div class="container">
-    
-      <a class="navbar-brand" href="/" style="color:#fff;"> Mardoqueo Arteaga </a>
 
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        
-        <span><i class="fas fa-bars"></i></span>
-        
-      </button>
-    
-      <!-- ADDITIONAL SECTIONS -->
-    
-      <div class="collapse navbar-collapse" id="navbar">
-      
-        <ul class="navbar-nav mr-auto">
+<body class="fixed-top-nav sticky-bottom-footer">
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-white shadow-sm">
+      <div class="container d-flex align-items-center">
+        <!-- Social Icons Left -->
+        <div class="navbar-social">
+          <a href="mailto:arteaga@fordham.edu" class="text-dark mx-2" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/mmarteaga" class="text-dark mx-2" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/mmarteaga" class="text-dark mx-2" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en" class="text-dark mx-2" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        </div>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/#about" data-target="#about">
-            <span>Home</span>
-          </a>
-        </li>
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#projects" data-target="#projects">
-            <span>Projects</span>
-          </a>
-        </li>
-
-
-	<li class="nav-item">
-          <a class="nav-link" href="/#posts" data-target="#posts">
-            <span>Posts</span>
-          </a>
-        </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#resources" data-target="#resources">
-            <span>Resources</span>
-          </a>
-        </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#contact" data-target="#contact">
-            <span>Contact</span>
-          </a>
-        </li>
-
-        
-       <!-- <li class="nav-item">
-          <a class="nav-link" href="/pdf/Arteaga_CV.pdf" data-target="/pdf/Arteaga_CV.pdf">
-            <span>CV</span>
-          </a>
-        </li> -->
-	
-        
-        <!--<li class="nav-item">
-          <a class="nav-link" href="/pdf/Arteaga_RES.pdf" data-target="/pdf/Arteaga_RES.pdf">
-            <span>Industry Resume</span>
-          </a>
-        </li>-->
-        	
- 
-        </ul>
-	      
-        <!-- Light/Dark Option-->
-       <ul class="navbar-nav ml-auto"> 
-          
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-	</ul>
-
+        <!-- Right-side Nav Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+            <li class="nav-item"><a class="nav-link" href="/writing/">Writing</a></li>
+            <li class="nav-item"><a class="nav-link" href="/videos/">Videos</a></li>
+            <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
+            <li class="nav-item">
+              <button id="dark-toggle" class="nav-link btn btn-link p-0 ml-3" title="Toggle theme">
+                <i class="fas fa-moon"></i><i class="fas fa-sun"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  
   
   
   
@@ -310,22 +264,13 @@ if (!doNotTrack) {
     <a href="https://mmarteaga.github.io/research/test/" class="card-image hover-overlay">
 	    <img class="portrait" src="/author/admin/MArteagasq.JPG" itemprop="image" alt="Avatar"> 
 
-    <div class="img-responsive"> </a>
+    <!-- <div class="img-responsive"> </a> -->
      
-     <h2 itemprop="name">Mardoqueo Arteaga, PhD</h2>
-      
-     <h3 itemprop="jobTitle"> Ads @ LinkedIn </h3>
-	
-     <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
        
-        <a href="https://www.worldhistory.org/Marduk/" target="_blank" itemprop="url" rel="noopener">
-        
-       <!-- <span itemprop="name">Economist, KPMG US</span> </a> -->
-       
-     </h3>
-      	    <h4 itemprop="pronounce"><small> <code> mar-doe-KEH-oh  ar-TEH-aga </code></small></h4>
+     <!-- </h3> -->
+      	    <!-- <h4 itemprop="pronounce"><small> <code> mar-doe-KEH-oh  ar-TEH-aga </code></small></h4> -->
 	    <!--<h4 itemprop="pronounce"><small><small> <a href="https://www.worldhistory.org/Marduk/" target="blank">Interested in the origin of my name?</small></small></a> </h4> -->
-    </div>
+    <!-- </div> -->
       
     <!-- LINKS UNDERNEATH MAIN PICTURE AND INFORMATION --> 
       
@@ -339,11 +284,6 @@ if (!doNotTrack) {
           </a>
         </li>
 	    
-       <!-- <li>
-          <a href="/pdf/Arteaga_CV.pdf" data-target="/pdf/Arteaga_CV.pdf" rel="noopener">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>-->
 	   
         <li>
           <a itemprop="sameAs" href="https://www.linkedin.com/in/mmarteaga" target="_blank" rel="noopener">
@@ -351,12 +291,6 @@ if (!doNotTrack) {
           </a>
         </li>
 
-
-        <!-- <li>
-          <a itemprop="sameAs" href="https://twitter.com/themarcarteaga" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>-->
         
     </ul>
 
@@ -367,23 +301,23 @@ if (!doNotTrack) {
       
     <div class="col-12 col-lg-8" itemprop="description">
 	    
-	<h1>Biography</h1>    
-      <p> Mardoqueo (Marc) is an Economist at
+	<h1>Mardoqueo Arteaga</h1>    
+      <p> Welcome! I am an applied economist at
   <a href="https://business.linkedin.com/marketing-solutions" target="_blank" rel="noopener noreferrer">
-    LinkedIn</a>. His work bridges data science, economics, and behavioral insights to deliver data-driven marketing strategy and client-focused storytelling.</p>
+    LinkedIn</a> where I use data science, economics, and behavioral insights to deliver data-driven marketing strategy and client-focused storytelling.</p>
 	    
 	  <p>
-  He holds a doctorate in economics, specialty in belief formation, from Fordham University; his thesis was a series of empirical studies on how macroeconomic expectations are formed and turn into behavior. His background spans policy creation, statistical consulting, and analytics, enabling a holistic approach to business problem-solving and communication.
+  Explore my <a href="/research/">Research</a>, read my <a href="/writing/">Writing</a>, watch my <a href="/videos/">Videos</a>, or check out some practical <a href="/misc/">Miscellania.</a>.</p>
 </p>
 
 	    <!-- <p> To aspiring professionals from underrepresented backgrounds like my own: Your perspective is invaluable. If you seek guidance or a conversation, please don't hesitate to reach out.</p> -->
-	    <p> <h4 itemprop="pronounce"><small> <emph> The views expressed on this site are my own, and do not reflect those of any of my former or current employers. </emph> </small></h4> </p>
-	    
+	    <!-- <p> <h4 itemprop="pronounce"><small> <emph> The views expressed on this site are my own, and do not reflect those of any of my former or current employers. </emph> </small></h4> </p>
+	     -->
     <!-- RESEARCH INTERESTS AND EDUCATION -->
       
-    <div class="row">
+    <!-- <div class="row">
 
-      <div class="col-md-5">
+      <!-- <div class="col-md-5">
         
         <h3>Research Interests</h3>
           
@@ -400,9 +334,9 @@ if (!doNotTrack) {
 
           </ul>
         
-      </div>
+      </div> -->
 
-      <div class="col-md-7">
+      <!-- <div class="col-md-7">
         
         <h3>Education</h3>
         
@@ -430,9 +364,9 @@ if (!doNotTrack) {
               </div>
           </li>
           
-          </ul>
+          </ul> -->
         
-      </div>
+      <!-- </div> --> 
 
      </div>
     </div>

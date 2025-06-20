@@ -156,89 +156,65 @@ if (!doNotTrack) {
 <!-- NAVIGATION BAR AT THE TOP --> 
 <!-------------------------->
   
-  <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <nav id="navbar-main"
+     class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top py-0">
+  <div class="container d-flex align-items-center">
     
-  <div class="container">
-    
-  
-      <div class="collapse navbar-collapse" id="navbar">
-      
-       <ul class="navbar-nav ml-auto align-items-center">
-
-        <li class="nav-item">
-          <a class="nav-link" href="/#about" data-target="#about">
-            <span>Home</span>
-          </a>
-        </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#projects" data-target="#projects">
-            <span>Research</span>
-          </a>
-        </li>
-
-
-	<li class="nav-item">
-          <a class="nav-link" href="/#posts" data-target="#posts">
-            <span>Writing</span>
-          </a>
-        </li>
-
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/#resources" data-target="#resources">
-            <span>Miscellania</span>
-          </a>
-        </li>
-
-        
-
-        </div>
-
-        <!-- Navbar Toggler -->
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-      <!-- ADDITIONAL SECTIONS -->
-    <div class="container d-flex align-items-center">
-        <!-- Social Icons Left -->
-        <div class="navbar-social">
-          <a href="mailto:arteaga@fordham.edu" class="text-light mx-2" title="Email"><i class="fas fa-envelope"></i></a>
-          <a href="https://www.linkedin.com/in/mmarteaga" class="text-light mx-2" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/mmarteaga" class="text-light mx-2" title="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en" class="text-light mx-2" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-        
-
-        
-       <!-- <li class="nav-item">
-          <a class="nav-link" href="/pdf/Arteaga_CV.pdf" data-target="/pdf/Arteaga_CV.pdf">
-            <span>CV</span>
-          </a>
-        </li> -->
-	
-        
-        <!--<li class="nav-item">
-          <a class="nav-link" href="/pdf/Arteaga_RES.pdf" data-target="/pdf/Arteaga_RES.pdf">
-            <span>Industry Resume</span>
-          </a>
-        </li>-->
-        	
- 
-        </ul>
-	      
-        <!-- Light/Dark Option-->
-       <ul class="navbar-nav ml-auto"> 
-          
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-	</ul>
-
-      </div>
+    <!-- 1) Social icons always visible on left -->
+    <div class="navbar-social">
+      <a href="mailto:arteaga@fordham.edu" class="text-white mx-2">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/mmarteaga" class="text-white mx-2">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/mmarteaga" class="text-white mx-2">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en"
+         class="text-white mx-2">
+        <i class="ai ai-google-scholar"></i>
+      </a>
     </div>
-  </nav>
+
+    <!-- 2) Toggler for mobile -->
+    <button class="navbar-toggler ml-auto" type="button"
+            data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- 3) Collapsible nav links + dark toggle -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <!-- Left-grouped items -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/research/">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/writing/">Writing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/miscellania/">Miscellania</a>
+        </li>
+      </ul>
+      <!-- Right-grouped dark-mode toggle -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link js-dark-toggle" title="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+
   
   
   

@@ -1,0 +1,342 @@
+/*
+ * Modern Styles for Mardoqueo Arteaga Portfolio
+ * Updated January 2026
+ */
+
+:root {
+  --primary-color: #000;
+  --accent-color: #5b9bd5;
+  --text-color: #333;
+  --text-light: #666;
+  --bg-color: #fff;
+  --bg-light: #f8f9fa;
+  --border-color: #e0e0e0;
+  --transition: all 0.3s ease;
+}
+
+/* Dark mode variables */
+body.dark-mode {
+  --text-color: #e0e0e0;
+  --text-light: #b0b0b0;
+  --bg-color: #1a1a1a;
+  --bg-light: #2a2a2a;
+  --border-color: #3a3a3a;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.7;
+  transition: var(--transition);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Navbar styles */
+#navbar-main {
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0.5rem 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--accent-color);
+}
+
+/* Hero section */
+.hero-section {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 0 60px;
+  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-light) 100%);
+}
+
+.hero-content {
+  /* Remove display: flex to let Bootstrap grid handle layout */
+}
+
+.profile-photo {
+  flex-shrink: 0;
+}
+
+.profile-photo img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  transition: var(--transition);
+}
+
+.profile-photo img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.hero-text .lead {
+  font-size: 1.3rem;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+/* Content sections */
+.content-section {
+  padding: 60px 0;
+}
+
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+.section-heading h1 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.section-heading h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent-color);
+}
+
+/* Cards */
+.card-custom {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: var(--transition);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card-custom:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+/* Research publications */
+.publication-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.publication-authors {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+}
+
+.publication-venue {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.btn-custom {
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.btn-outline-custom {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  background: transparent;
+}
+
+.btn-outline-custom:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+/* Poetry/Writing styles */
+.poetry-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+blockquote.indentedverse {
+  border-left: 4px solid var(--accent-color);
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+
+blockquote.indentedverse h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+blockquote.indentedverse pre {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  color: var(--text-color);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Video embeds */
+.video-item {
+  margin-bottom: 3rem;
+}
+
+.video-item h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.embed-responsive {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--bg-light);
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .profile-photo img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: auto;
+    padding: 60px 0 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text .lead {
+    font-size: 1.1rem;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+
+  .content-section {
+    padding: 40px 0;
+  }
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+}
+
+/* Smooth transitions for dark mode */
+body, .card-custom, .publication-item, a {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Utilities */
+.text-muted-custom {
+  color: var(--text-light) !important;
+}
+
+hr {
+  border-top: 1px solid var(--border-color);
+  margin: 2rem 0;
+}

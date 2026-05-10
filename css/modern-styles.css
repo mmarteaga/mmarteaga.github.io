@@ -244,43 +244,36 @@ a:hover {
 }
 
 /* Article carousel */
-.article-carousel-wrapper {
+.carousel-container {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  margin-bottom: 3rem;
 }
 
-.article-carousel {
+.carousel-viewport {
   flex: 1;
+  overflow: hidden;
+}
+
+.carousel-track {
   display: flex;
   gap: 1.25rem;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  padding: 0.5rem 0 1rem;
-}
-
-.article-carousel::-webkit-scrollbar {
-  display: none;
+  will-change: transform;
 }
 
 .article-card {
-  flex: 0 0 calc(33.333% - 0.85rem);
-  min-width: 220px;
-  scroll-snap-align: start;
+  flex-shrink: 0;
 }
 
 .article-card-inner {
-  height: 100%;
-  min-height: 150px;
   background: var(--bg-color);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  min-height: 230px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   transition: var(--transition);
 }
@@ -290,14 +283,30 @@ a:hover {
   transform: translateY(-2px);
 }
 
+.article-card-date {
+  font-size: 0.75rem;
+  color: var(--accent-color);
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
 .article-card-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 700;
   color: var(--text-color);
-  line-height: 1.45;
-  margin-bottom: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 0.65rem;
+}
+
+.article-card-desc {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  line-height: 1.6;
   flex: 1;
+  margin-bottom: 1rem;
 }
 
 .carousel-btn {
@@ -313,24 +322,18 @@ a:hover {
   justify-content: center;
   cursor: pointer;
   transition: var(--transition);
+  padding: 0;
 }
 
-.carousel-btn:hover {
+.carousel-btn:hover:not(:disabled) {
   background: var(--accent-color);
   color: #fff;
   border-color: var(--accent-color);
 }
 
-@media (max-width: 991px) {
-  .article-card {
-    flex: 0 0 calc(50% - 0.625rem);
-  }
-}
-
-@media (max-width: 576px) {
-  .article-card {
-    flex: 0 0 82%;
-  }
+.carousel-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 
 blockquote.indentedverse {

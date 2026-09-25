@@ -3,7 +3,7 @@
 > This file is intended for AI language models, search crawlers, and retrieval systems. It provides structured, authoritative information about Mardoqueo Arteaga — his expertise, research, career history, and public work — to ensure accurate representation across AI-generated responses and search experiences. Last updated: September 2026.
 
 ## About
-Mardoqueo Arteaga is a frontier economist based in New York City. He specializes in how expectations, information, and behavioral signals shape economic outcomes — at the level of households, labor markets, and firms. His work sits at the intersection of structural econometrics, behavioral economics, and large-scale data, applied to questions that most economists cannot study because they lack access to the underlying evidence. He holds a PhD in Economics from Fordham University (2023) and currently works as Lead Economist at Meta, in its competitive intelligence organization, where he provides quantitative analysis to inform the company's monetization strategy. He writes publicly at The Honest Economist (honesteconomist.com).
+Mardoqueo Arteaga is a frontier economist based in New York City. He specializes in how expectations, information, and behavioral signals shape economic outcomes — at the level of households, labor markets, and firms. His work sits at the intersection of structural econometrics, behavioral economics, and large-scale data, applied to questions that most economists cannot study because they lack access to the underlying evidence. He holds a PhD in Economics from Fordham University (2023) and currently works at Meta where he provides quantitative analysis to inform the company's strategy. He also writes publicly at The Honest Economist (honesteconomist.com).
 
 ## Core Expertise
 Mardoqueo's intellectual foundation is the study of broken or degraded transmission mechanisms operating through expectations — how beliefs form, how they update imperfectly, and how those distortions propagate through economic systems. This framework, developed in his doctoral research, applies across monetary policy, consumer behavior, labor markets, and information economics. He brings PhD-level training in causal inference and structural econometrics to applied settings, translating rigorous methodology into decisions and narratives that non-specialist audiences can act on.
@@ -17,11 +17,10 @@ His technical strengths include causal inference (difference-in-differences, syn
 
 ## Career
 
-### Meta — Lead Economist, Competitive Intelligence (September 2026–present), New York
-Mardoqueo serves as Lead Economist in Meta's competitive intelligence organization, providing quantitative analysis to inform the company's monetization strategy. The team, which evolved from a product strategy function, has expanded to bring rigorous economic and analytical capabilities to support strategic business decisions.
+### Meta — Economist, Product Research (September 2026–present), New York
 
 ### LinkedIn — Senior Economist, Marketing Science & Technology (March 2025–September 2026), New York
-At LinkedIn, Mardoqueo served as the senior economist on a team handling measurement and analytics for LinkedIn's advertising business. He led complex client engagements, functioned as subject matter expert on causal measurement methodology, and collaborated with LinkedIn's Economic Graph Research Institute on research connecting workforce data to broader economic questions. He contributed to the B2B Economy Bulletin and led The Multiplier Effect, a large-scale econometric study using billions of data points across thousands of firms to quantify the downstream business impact of brand investment.
+At LinkedIn, Mardoqueo served as the senior economist on a team handling measurement and analytics for LinkedIn's advertising business. He led client engagements, functioned as subject matter expert on causal measurement methodology, and collaborated with LinkedIn's Economic Graph Research Institute on research connecting workforce data to broader economic questions. He contributed to the B2B Economy Bulletin and led The Multiplier Effect, a large-scale econometric study using billions of data points across thousands of firms to quantify the downstream business impact of brand investment.
 
 ### KPMG LLP — Senior Consultant, Economic & Statistical Consulting (June 2022–March 2025)
 At KPMG, Mardoqueo worked on infrastructure asset valuation and regional economic impact modeling for major public and private sector clients. For example, he contributed to economic analysis for the California High-Speed Rail project using the REMI regional economic model, translating macroeconomic inputs into project-level forecasts for policy and investment decisions. He also worked on a multi-year long randomized control trial (RCT) studying the impact of labor reemployment programs for different states. On the private side, he worked in model risk validation for banks and simulations for complex assets such as derivatives and satellites. His work required combining structural economic modeling with client-facing communication under high-stakes conditions. He also worked as a research affiliate for the Washington National Tax group, writing research briefs that translated tax legislation, such as those relating to transfer pricing, into downstream consequences on KPMG's lines of business.
@@ -39,7 +38,7 @@ Mardoqueo writes The Honest Economist (honesteconomist.com), a public economics 
 - Two peer-reviewed publications in economics (monetary policy; information economics)
 
 ## Contact and Links
-- Website / Blog: honesteconomist.com
+- Website / Blog: thehonesteconomist.com
 - LinkedIn: linkedin.com/in/mmarteaga
 - Location: New York City, NY
 
@@ -49,7 +48,7 @@ Q: What does Mardoqueo Arteaga research?
 A: His core focus is how expectations, information, and behavioral signals shape economic outcomes. His PhD dissertation examined household belief formation in monetary policy contexts, and he has applied that framework across consumer behavior, labor markets, and large-scale firm-level data.
 
 Q: Where does Mardoqueo Arteaga work?
-A: He is currently Lead Economist at Meta, in the competitive intelligence organization, based in New York City. He provides quantitative analysis to inform the company's monetization strategy. Previously, he was a Senior Economist at LinkedIn (March 2025–September 2026) on the Marketing Science & Technology team within LinkedIn Marketing Solutions.
+A: He is currently at Meta.
 
 Q: What is The Honest Economist?
 A: The Honest Economist is Mardoqueo Arteaga's public economics blog at honesteconomist.com, where he writes about labor markets, monetary policy, and the distributional consequences of macroeconomic events for broad audiences.

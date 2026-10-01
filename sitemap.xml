@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/</loc>
+    <loc>https://mmarteaga.github.io/</loc>
   </url>
-  
   <url>
-    <loc>/authors/</loc>
+    <loc>https://mmarteaga.github.io/writing/</loc>
   </url>
-  
   <url>
-    <loc>/categories/</loc>
+    <loc>https://mmarteaga.github.io/research/</loc>
   </url>
-  
   <url>
-    <loc>/author/mmarteaga/</loc>
+    <loc>https://mmarteaga.github.io/speaking/</loc>
   </url>
-  
   <url>
-    <loc>/post/</loc>
+    <loc>https://mmarteaga.github.io/about/</loc>
   </url>
-  
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://mmarteaga.github.io/bio/</loc>
   </url>
-  
   <url>
-    <loc>/publication/</loc>
+    <loc>https://mmarteaga.github.io/miscellania/</loc>
   </url>
-  
   <url>
-    <loc>/talk/</loc>
+    <loc>https://mmarteaga.github.io/econograph/</loc>
   </url>
-  
   <url>
-    <loc>/tags/</loc>
+    <loc>https://mmarteaga.github.io/post/</loc>
   </url>
-  
+  <url>
+    <loc>https://mmarteaga.github.io/publication/</loc>
+  </url>
 </urlset>

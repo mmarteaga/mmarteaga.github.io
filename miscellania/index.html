@@ -25,6 +25,9 @@
     body { font-family: Georgia, 'Times New Roman', serif; color: #1e242e; background: #f5f8fb; line-height: 1.6; }
     .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
     nav { background: #111; position: sticky; top: 0; z-index: 10; }
+    nav .links { display: flex; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+    nav .links::-webkit-scrollbar { display: none; }
+    nav .links a { flex-shrink: 0; }
     nav .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 14px; padding-bottom: 14px; }
     nav .brand { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-weight: 700; font-size: 15px; text-decoration: none; color: #eef2f7; }
     nav .links a { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 13.5px; color: #a9bcd4; text-decoration: none; margin-left: 18px; }
@@ -92,15 +95,15 @@
   <section class="block">
     <div class="kicker">Personal Reading Lists</div>
     <div class="row-item">
-      <a class="t" href="/post/BookList2024">2024 Reading List</a>
+      <a class="t" href="/post/BookList2024/list2024.pdf">2024 Reading List</a>
       <span class="v">December 31, 2024</span>
     </div>
     <div class="row-item">
-      <a class="t" href="/post/BookList2023">2023 Reading List</a>
+      <a class="t" href="/post/BookList2023/list2023.pdf">2023 Reading List</a>
       <span class="v">December 31, 2023</span>
     </div>
     <div class="row-item">
-      <a class="t" href="/post/BookList2022">2022 Reading List</a>
+      <a class="t" href="/post/BookList2022/list2022.pdf">2022 Reading List</a>
       <span class="v">December 31, 2022</span>
     </div>
   </section>

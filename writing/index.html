@@ -3,187 +3,123 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="author" content="Mardoqueo Arteaga">
-  <meta name="description" content="Writing by Mardoqueo Arteaga — essays from The Honest Economist on information, markets, and policy.">
-  <meta name="keywords" content="economics writing, poetry, Mardoqueo Arteaga, The Honest Economist">
-
-  <meta property="og:site_name" content="Mardoqueo Arteaga">
-  <meta property="og:url" content="https://mmarteaga.github.io/writing/">
-  <meta property="og:title" content="Writing - Mardoqueo Arteaga">
-  <meta property="og:description" content="Essays on information, markets, and policy by Mardoqueo Arteaga">
-  <meta property="og:image" content="https://mmarteaga.github.io/images/ma_icon.jpg">
-
+  <title>Writing — Mardoqueo Arteaga</title>
+  <meta name="description" content="Essays from The Honest Economist on information, markets, and policy by Mardoqueo Arteaga, plus contact and poetry.">
   <link rel="canonical" href="https://mmarteaga.github.io/writing/">
   <link rel="icon" type="image/jpeg" href="/images/ma_icon.jpg">
   <link rel="apple-touch-icon" type="image/jpeg" href="/images/ma_icon.jpg">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,400&family=Roboto+Mono&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="/css/modern-styles.css">
-
-  <title>Writing - Mardoqueo Arteaga</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Writing — Mardoqueo Arteaga">
+  <meta property="og:description" content="Essays on information, markets, and policy by Mardoqueo Arteaga">
+  <meta property="og:url" content="https://mmarteaga.github.io/writing/">
+  <meta property="og:image" content="https://mmarteaga.github.io/images/ma_icon.jpg">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NBGL2TKFJX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NBGL2TKFJX');
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, 'Times New Roman', serif; color: #1e242e; background: #f5f8fb; line-height: 1.6; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+    nav { background: #111; position: sticky; top: 0; z-index: 10; }
+    nav .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 14px; padding-bottom: 14px; }
+    nav .brand { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-weight: 700; font-size: 15px; text-decoration: none; color: #eef2f7; }
+    nav .links a { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 13.5px; color: #a9bcd4; text-decoration: none; margin-left: 18px; }
+    nav .links a:hover { color: #fff; }
+    nav .links a.current { color: #fff; }
+    .pagehead { padding: 44px 0 8px; }
+    .pagehead h1 { font-size: 30px; font-weight: 700; margin-bottom: 10px; }
+    .pagehead p.lede { font-size: 17px; color: #3c4450; max-width: 620px; }
+    section.block { padding: 26px 0; border-top: 1px solid #dde5ee; margin-top: 26px; }
+    section.block p { font-size: 15.5px; color: #4a5462; margin-bottom: 12px; }
+    section.block p a, .essay p a { color: #2f5f8f; }
+    .kicker { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #2f5f8f; margin-bottom: 14px; }
+    .essay { margin-bottom: 18px; }
+    .essay .date { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 12.5px; color: #7a8494; }
+    .essay a.title { font-size: 18px; color: #1e242e; text-decoration: none; font-weight: 600; }
+    .essay a.title:hover { color: #2f5f8f; }
+    .essay p { font-size: 15px; color: #4a5462; margin-top: 2px; margin-bottom: 0; }
+    footer { border-top: 1px solid #dde5ee; margin-top: 34px; padding: 22px 0 40px; font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 13px; color: #7a8494; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+    footer a { color: #2f5f8f; text-decoration: none; }
+    @media (max-width: 560px) {
+      .pagehead h1 { font-size: 26px; }
+      nav .links a { margin-left: 12px; font-size: 12.5px; }
+    }
+  </style>
 </head>
-
 <body>
 
-  <!-- Navigation -->
-  <nav id="navbar-main" class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/writing/">Writing</a></li>
-          <li class="nav-item"><a class="nav-link" href="/miscellania/">Miscellania</a></li>
-          <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-        </ul>
-        <ul class="navbar-nav ms-auto d-flex flex-row">
-          <li class="nav-item px-2">
-            <a class="nav-link" href="mailto:arteaga@fordham.edu" title="Email" aria-label="Email"><i class="fas fa-envelope"></i></a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="https://www.linkedin.com/in/mmarteaga" title="LinkedIn" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="https://github.com/mmarteaga" title="GitHub" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link" href="https://scholar.google.com/citations?user=bJc3GmIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="btn btn-outline-custom btn-sm" href="https://mmarteaga.github.io/econograph" target="_blank" rel="noopener" title="Econograph">Econograph</a>
-          </li>
-          <li class="nav-item px-2">
-            <a class="nav-link dark-mode-toggle" href="#" title="Toggle theme" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Main Content -->
-  <div class="content-section" style="padding-top: 100px;">
-    <div class="container">
-
-      <!-- Page Header -->
-      <div class="section-heading text-center mb-5">
-        <h1>Writing</h1>
-        <p class="text-muted-custom">Essays on economics, and a few poems.</p>
-      </div>
-
-      <!-- What is The Honest Economist -->
-      <section class="mb-5">
-        <div class="section-heading mb-3">
-          <h2>What is The Honest Economist?</h2>
-        </div>
-        <p>The Honest Economist is a publication started with my former colleague, Kent Bhupathi, where I am a contributor. I found the need to have a place where I can think about how information moves through an economy, what people actually hear when institutions speak, and where the textbook story breaks down.</p>
-        <p>These essays are where I work those questions out in public, in plainer language than a journal would allow. They reflect my personal opinions only, not those of my employer.</p>
-      </section>
-
-      <hr>
-
-      <!-- Archive -->
-      <section class="mb-5">
-        <div class="section-heading mb-2">
-          <h2>Essays</h2>
-        </div>
-        <p class="text-muted-custom mb-4">Everything I have written for The Honest Economist, newest first. Each piece lives on <a href="https://honesteconomist.com" target="_blank" rel="noopener">honesteconomist.com</a>; this page is my personal archive.</p>
-        <div class="row" id="heArchive">
-        <noscript><div class="col-12"><p>This archive loads with JavaScript enabled. You can also read every essay at <a href="https://honesteconomist.com/column">honesteconomist.com/column</a>.</p></div></noscript></div>
-      </section>
-
-      <hr>
-
-      <!-- Contact -->
-      <section class="mb-5">
-        <div class="section-heading mb-3">
-          <h2>Get in touch</h2>
-        </div>
-        <p>If something I wrote made you think, or you think I got something wrong, I would like to hear about it. The best way to reach me is email: <a href="mailto:arteaga@fordham.edu">arteaga@fordham.edu</a>.</p>
-      </section>
-
-      <hr>
-
-      <!-- Poetry -->
-      <section class="mb-5">
-        <div class="section-heading mb-3">
-          <h2>Poetry</h2>
-        </div>
-        <p class="text-muted-custom">A few of my poems now live on the <a href="/miscellania/">Miscellania</a> page.</p>
-      </section>
-
+<nav>
+  <div class="wrap">
+    <a class="brand" href="/">Mardoqueo Arteaga</a>
+    <div class="links">
+      <a href="/writing/" class="current">Writing</a><a href="/research/">Research</a><a href="/speaking/">Speaking</a><a href="/about/">About</a><a href="/miscellania/">Miscellania</a>
     </div>
   </div>
+</nav>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Mardoqueo Arteaga. Built with care.</p>
+<div class="wrap">
+
+  <header class="pagehead">
+    <h1>Writing</h1>
+    <p class="lede">Essays on economics, and a few poems.</p>
+  </header>
+
+  <section class="block">
+    <div class="kicker">What is The Honest Economist?</div>
+    <p>The Honest Economist is a publication started with my former colleague, Kent Bhupathi, where I am a contributor. I found the need to have a place where I can think about how information moves through an economy, what people actually hear when institutions speak, and where the textbook story breaks down.</p>
+    <p>These essays are where I work those questions out in public, in plainer language than a journal would allow. They reflect my personal opinions only, not those of my employer.</p>
+  </section>
+
+  <section class="block">
+    <div class="kicker">Essays</div>
+    <p>Everything I have written for The Honest Economist, newest first. Each piece lives on <a href="https://honesteconomist.com" target="_blank" rel="noopener">honesteconomist.com</a>; this page is my personal archive.</p>
+    <div id="heArchive">
+      <noscript><p>This archive loads with JavaScript enabled. You can also read every essay at <a href="https://honesteconomist.com/column">honesteconomist.com/column</a>.</p></noscript>
     </div>
+  </section>
+
+  <section class="block">
+    <div class="kicker">Get in touch</div>
+    <p>If something I wrote made you think, or you think I got something wrong, I would like to hear about it. The best way to reach me is email: <a href="mailto:arteaga@fordham.edu">arteaga@fordham.edu</a>.</p>
+  </section>
+
+  <section class="block">
+    <div class="kicker">Poetry</div>
+    <p>A few of my poems now live on the <a href="/miscellania/">Miscellania</a> page.</p>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 Mardoqueo Arteaga</span>
+    <span><a href="mailto:arteaga@fordham.edu">arteaga@fordham.edu</a></span>
   </footer>
 
+</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-
-      // Dark mode
-      const darkModeToggle = document.querySelector('.dark-mode-toggle');
-      const body = document.body;
-      const icon = darkModeToggle.querySelector('i');
-
-      if (localStorage.getItem('darkMode') === 'enabled') {
-        body.classList.add('dark-mode');
-        icon.classList.replace('fa-moon', 'fa-sun');
-      }
-
-      darkModeToggle.addEventListener('click', function (e) {
-        e.preventDefault();
-        body.classList.toggle('dark-mode');
-        if (body.classList.contains('dark-mode')) {
-          icon.classList.replace('fa-moon', 'fa-sun');
-          localStorage.setItem('darkMode', 'enabled');
-        } else {
-          icon.classList.replace('fa-sun', 'fa-moon');
-          localStorage.setItem('darkMode', null);
-        }
-      });
+<script src="/js/he-posts.js"></script>
+<script>
+  // Archive data lives in /js/he-posts.js (shared with the homepage).
+  (function () {
+    var posts = window.HE_POSTS || [];
+    var archive = document.getElementById('heArchive');
+    posts.forEach(function (p) {
+      var d = document.createElement('div');
+      d.className = 'essay';
+      var date = document.createElement('div');
+      date.className = 'date'; date.textContent = p.d;
+      var a = document.createElement('a');
+      a.className = 'title'; a.href = p.u; a.textContent = p.t;
+      a.target = '_blank'; a.rel = 'noopener';
+      var desc = document.createElement('p');
+      desc.textContent = p.desc;
+      d.appendChild(date); d.appendChild(a); d.appendChild(desc);
+      archive.appendChild(d);
     });
-  </script>
-
-  <script src="/js/he-posts.js"></script>
-  <script>
-    // Archive data lives in /js/he-posts.js (shared with the homepage).
-    const HE_POSTS = window.HE_POSTS || [];
-
-    (function () {
-      const archive = document.getElementById('heArchive');
-      HE_POSTS.forEach(function (p) {
-        const col = document.createElement('div');
-        col.className = 'col-md-6 col-lg-4 mb-4';
-        col.innerHTML =
-          '<div class="article-card-inner h-100">' +
-            '<p class="article-card-date">' + p.d + '</p>' +
-            '<p class="article-card-title">' + p.t + '</p>' +
-            '<p class="article-card-desc">' + p.desc + '</p>' +
-            '<a href="' + p.u + '" class="btn btn-outline-custom btn-sm align-self-start mt-auto" target="_blank" rel="noopener">Read <i class="fas fa-arrow-right ms-1"></i></a>' +
-          '</div>';
-        archive.appendChild(col);
-      });
-    })();
-  </script>
+  })();
+</script>
 
 </body>
 </html>

@@ -25,41 +25,45 @@
    "jobTitle":"Economist",
    "sameAs":["https://www.linkedin.com/in/mmarteaga","https://github.com/mmarteaga","https://honesteconomist.com/column"]}
   </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Georgia, 'Times New Roman', serif; color: #1e242e; background: #f5f8fb; line-height: 1.6; }
+    body { font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; color: #1e242e; background: #f5f8fb; line-height: 1.6; }
+    h1, h2, h3, nav .brand, .essay a.title, .pub .title, .topic .t, .video-item h3, .poem h3, .resgroup, .row-item .t { font-family: 'Montserrat', sans-serif; }
     .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
     nav { background: #111; position: sticky; top: 0; z-index: 10; }
     nav .links { display: flex; overflow-x: auto; white-space: nowrap; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
     nav .links::-webkit-scrollbar { display: none; }
     nav .links a { flex-shrink: 0; }
     nav .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 14px; padding-bottom: 14px; }
-    nav .brand { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-weight: 700; font-size: 15px; text-decoration: none; color: #eef2f7; }
-    nav .links a { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 13.5px; color: #a9bcd4; text-decoration: none; margin-left: 18px; }
+    nav .brand { font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 700; font-size: 15px; text-decoration: none; color: #eef2f7; }
+    nav .links a { font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13.5px; color: #a9bcd4; text-decoration: none; margin-left: 18px; }
     nav .links a:hover { color: #fff; }
     .hero { display: flex; gap: 28px; align-items: center; padding: 44px 0 30px; }
     .hero img { width: 128px; height: 128px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
     .hero h1 { font-size: 30px; font-weight: 700; line-height: 1.25; margin-bottom: 10px; }
     .hero p { font-size: 16.5px; color: #3c4450; }
     .hero p a { color: #2f5f8f; }
-    .prolinks { margin-top: 12px; font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 13.5px; }
+    .prolinks { margin-top: 12px; font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13.5px; }
     .prolinks a { color: #2f5f8f; text-decoration: none; margin-right: 14px; }
     .prolinks a:hover { text-decoration: underline; }
     section.block { padding: 26px 0; border-top: 1px solid #dde5ee; }
-    .kicker { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #2f5f8f; margin-bottom: 14px; }
+    .kicker { font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #2f5f8f; margin-bottom: 14px; }
     .essay { margin-bottom: 18px; }
-    .essay .date { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 12.5px; color: #7a8494; }
+    .essay .date { font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; color: #7a8494; }
     .essay a.title { font-size: 19px; color: #1e242e; text-decoration: none; font-weight: 600; }
     .essay a.title:hover { color: #2f5f8f; }
     .essay p { font-size: 15px; color: #4a5462; margin-top: 2px; }
-    .morelink { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 14px; color: #2f5f8f; text-decoration: none; border-bottom: 1px solid #9db8d2; }
+    .morelink { font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; color: #2f5f8f; text-decoration: none; border-bottom: 1px solid #9db8d2; }
     .pubrow { display: flex; justify-content: space-between; gap: 16px; padding: 11px 0; border-bottom: 1px solid #e6ecf3; }
     .pubrow:last-child { border-bottom: none; }
     .pubrow .t { font-size: 15.5px; font-weight: 600; color: #1e242e; text-decoration: none; }
     .pubrow .t:hover { color: #2f5f8f; }
-    .pubrow .v { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 13px; color: #7a8494; white-space: nowrap; }
+    .pubrow .v { font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; color: #7a8494; white-space: nowrap; }
     .speakline { font-size: 16px; color: #3c4450; margin-bottom: 10px; }
-    footer { border-top: 1px solid #dde5ee; margin-top: 10px; padding: 22px 0 40px; font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size: 13px; color: #7a8494; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+    footer { border-top: 1px solid #dde5ee; margin-top: 10px; padding: 22px 0 40px; font-family: 'Roboto', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; color: #7a8494; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
     footer a { color: #2f5f8f; text-decoration: none; }
     @media (max-width: 560px) {
       .hero { flex-direction: column; align-items: flex-start; gap: 18px; padding-top: 32px; }
@@ -127,7 +131,7 @@
 
   <section class="block">
     <div class="kicker">Speaking</div>
-    <p class="speakline">I speak on the economics of AI and labor, career building with data, and how information moves through marketing and big tech. Past talks at NYU, Arizona State, Montclair State, and NJIT.</p>
+    <p class="speakline">I speak on the economics of AI and labor, career building with data, and how information moves through marketing and big tech. Past talks at NYU, Arizona State, Montclair State, NJIT, and TCNJ.</p>
     <a class="morelink" href="/speaking/">Topics and booking</a>
   </section>
 
